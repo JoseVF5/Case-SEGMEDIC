@@ -6,6 +6,6 @@ from
 where 
 	especialidade is not NULL
 group by 
-	 especialidade
+	especialidade
 order by
-    valor ASC;
+    faturamento ASC;
