@@ -1,11 +1,11 @@
 select
-	procedimento,
 	especialidade,
 	SUM(valor) as faturamento
 from
 	atendimentos
 where 
-	especialidade != 'NULL'
-	and procedimento != 'NULL'
+	especialidade is not NULL
 group by 
-	procedimento, especialidade;
+	 especialidade
+order by
+    valor ASC;
