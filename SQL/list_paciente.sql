@@ -3,16 +3,15 @@ with ContagemMensal as (
     select 
         id_paciente,
         extract(year from data_atendimento) as ano,
-        extract(year from data_atendimento) as mes,
+        extract(month from data_atendimento) as mes,
         count(id_agendamento) as total_atendimentos
     from 
         atendimentos
     group by
         id_paciente, 
         extract(year from data_atendimento),
-        extract(year from data_atendimento)
+        extract(month from data_atendimento)
 )
-
 -- Listar os pacientes cruzando o mês de visita única com o mês seguinte, ou seja, mês + 1
 select distinct  
     mes_atual.id_paciente
