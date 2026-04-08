@@ -12,7 +12,7 @@ st.title("Dashboard Desafio Técnico - Segmedic")
 def load_data():
     try:
         # Lê o CSV unificado
-        df = pd.read_csv(r'/home/jvdata/Documentos/Case-SEGMEDIC/src/data/ouro/dados_dashboard.csv', sep =";")
+        df = pd.read_csv(r'src/data/ouro/dados_dashboard.csv', sep =";")
         
         # Converte a coluna de data para o tipo datetime do Pandas
         df['data_atendimento'] = pd.to_datetime(df['data_atendimento']).dt.date
