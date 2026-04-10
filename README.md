@@ -3,7 +3,7 @@
 Este repositório contém a minha solução para o Desafio Técnico da Segmedic. O objetivo principal deste projeto é explorar, investigar e estruturar dados de atendimentos clínicos para gerar insights operacionais e financeiros, respondendo a perguntas cruciais de negócio.
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
-* **Análise Exploratória:** Python (Pandas, Numpy, Matplotlib, Seaborn)
+* **Análise Exploratória:** Python (Pandas)
 * **Banco de Dados & Consultas:** SQL (PostgreSQL)
 * **Visualização de Dados (BI):** Streamlit
 
