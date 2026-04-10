@@ -55,4 +55,4 @@ Este projeto foi desenvolvido com foco em demonstrar:
 * Clareza e objetividade na comunicação visual e escrita dos resultados obtidos.
 
 ---
-*Desenvolvido por Jose.*
+*Desenvolvido por José.*
