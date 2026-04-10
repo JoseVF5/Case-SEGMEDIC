@@ -5,7 +5,7 @@ Este repositório contém a minha solução para o Desafio Técnico da Segmedic.
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 * **Análise Exploratória:** Python (Pandas, Numpy, Matplotlib, Seaborn)
 * **Banco de Dados & Consultas:** SQL (PostgreSQL)
-* **Visualização de Dados (BI):** [Inserir a ferramenta que você usou: Power BI / Metabase / Looker Studio / Streamlit]
+* **Visualização de Dados (BI):** Streamlit
 
 ---
 
